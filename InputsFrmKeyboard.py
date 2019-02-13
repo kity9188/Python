@@ -7,8 +7,8 @@ print("*************")
 splitString = "This string has been \nsplit over \nseveral\nlines"
 print(splitString)
 
-anotherSplitString = """This has been
-slpit over 
+anotherSplitString = """This has been again
+split over 
 several lines"""
 print(anotherSplitString)
 print("*************")
