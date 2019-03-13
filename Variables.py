@@ -26,8 +26,8 @@ b = 3
 print(a+b)
 print(a-b)
 print(a*b)
-print(a/b)  #o/p will be floating point becz it's a division
-print(a//b) #no of times b has been used to get a
+print(a/b)  #o/p will be floating point becz it's a division (use // if want to get a whole number as below)
+print(a//b) #no of times b has been used to get a (o/p will be same but / gives floating point and // gives whole number)
 print(a%b)  #remainder
 print("******************")
 
@@ -48,3 +48,8 @@ money = 15
 #In order to change int/float data type into string
 bun = str(money // bun_price)
 print("The no of buns that can be purchased = "+ bun +" bun")
+
+c = a + b
+d = c /3
+e = d -4
+print (e * 12)
