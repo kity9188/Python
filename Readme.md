@@ -48,12 +48,11 @@ Python has five standard data types −
         
         Examples:
         
-        int |   float   |   complex
-        ------- | ------- | ------- 
-           10  |   0.0 |   3.14j   
-           -786    |   -21.9   |   -.6545+0J   
-            
-            
+        int  | float | Complex
+        ------------- | ------------- | -------------
+        10  |    0.0     |  3.14j
+        -786  | -21.9  |  -.6545+0J
+        
         
         ```A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
         
