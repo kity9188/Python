@@ -113,7 +113,7 @@ The values stored in a list can be accessed using the slice operator ([ ] and [:
    * A tuple is another sequence data type that is similar to the list.
    * A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parenthesis.
    * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as ***read-only*** lists.
-   ```python
+  ```python
     tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
     tinytuple = (123, 'john')
         
@@ -124,15 +124,15 @@ The values stored in a list can be accessed using the slice operator ([ ] and [:
     print (tinytuple * 2)   # Prints tuple two times
     print (tuple + tinytuple) # Prints concatenated tuple
 ```
-   This will produce the following result:
-   ```text
+This will produce the following result:
+```text
       ('abcd', 786, 2.23, 'john', 70.200000000000003)
       abcd
       (786, 2.23)
       (2.23, 'john', 70.200000000000003)
       (123, 'john', 123, 'john')
       ('abcd', 786, 2.23, 'john', 70.200000000000003, 123, 'john')
-   ```
+```
         
    Below code is invalid with tuple, 
    because we attempted to update a tuple, 
