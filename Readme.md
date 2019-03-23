@@ -26,3 +26,34 @@ d = c /3
 e = d -4
 print (e * 12)
 ```
+- - - -
+## Standard Data Types
+Python has five standard data types −
+* Numbers
+* String
+* List
+* Tuple
+* Dictionary
+
+    1. Python Numbers:
+        * var1 = 1
+        * var2 = 10
+        
+        Python supports three different numerical types:
+        * int (signed integers)
+        * float (floating point real values)
+        * complex (complex numbers)
+        
+       ```All integers in Python3 are represented as long integers. Hence, there is no separate number type as long.```
+        
+        Examples:
+        
+        int |   float   |   complex
+        ------- | ------- | ------- 
+            10  |   0.0 |   3.14j   
+            -786    |   -21.9   |   -.6545+0J   
+            
+            
+        
+        ```A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
+        
