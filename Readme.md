@@ -35,13 +35,13 @@ Python has five standard data types -
 -------- | -------- | -------- | -------- | -------- | 
 
 1. ### Python Numbers:
-    * var1 = 1
-    * var2 = 10
+   * var1 = 1
+   * var2 = 10
         
     Python supports three different numerical types:
-    * int (signed integers)
-    * float (floating point real values)
-    * complex (complex numbers)
+   * int (signed integers)
+   * float (floating point real values)
+   * complex (complex numbers)
         
     ```text
     All integers in Python3 are represented as long integers. Hence, there is no separate number type as long.
@@ -84,8 +84,8 @@ Python has five standard data types -
       Hello World!TEST
       ```
 3. ### Python Lists
-    * A list contains items separated by commas and enclosed within square brackets ([]).
-    * To some extent, lists are similar to arrays in C. One of the differences between them is that all the items belonging to a list can be of different data type.
+   * A list contains items separated by commas and enclosed within square brackets ([]).
+   * To some extent, lists are similar to arrays in C. One of the differences between them is that all the items belonging to a list can be of different data type.
         
 The values stored in a list can be accessed using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the list and working their way to end -1. The plus (+) sign is the list concatenation operator, and the asterisk (*) is the repetition operator.
         
@@ -110,9 +110,9 @@ The values stored in a list can be accessed using the slice operator ([ ] and [:
   ['abcd', 786, 2.23, 'john', 70.200000000000003, 123, 'john']
   ```
 3. ### Python Tuples
-    * A tuple is another sequence data type that is similar to the list.
-    * A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parenthesis.
-    * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as ***read-only*** lists.
+   * A tuple is another sequence data type that is similar to the list.
+   * A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parenthesis.
+   * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as ***read-only*** lists.
    ```python
     tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
     tinytuple = (123, 'john')
@@ -145,9 +145,9 @@ The values stored in a list can be accessed using the slice operator ([ ] and [:
    list[2] = 1000     # Valid syntax with list
    ``` 
 4. ### Python Dictionary
-    * Python's dictionaries are kind of hash-table type.
-    * They work like associative arrays or hashes found in Perl and consist of key-value pairs.
-    * A dictionary key can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object.
+   * Python's dictionaries are kind of hash-table type.
+   * They work like associative arrays or hashes found in Perl and consist of key-value pairs.
+   * A dictionary key can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object.
         
     Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([]).
         
