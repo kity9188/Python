@@ -74,10 +74,14 @@ Python has five standard data types −
         ```
              
         This will produce the below result:
-        ```  Hello World!
-             H
-             llo
-             llo World!
-             Hello World!Hello World!
-             Hello World!TEST
-        ``` 
+        ```text
+        Hello World!
+        H
+        llo
+        llo World!
+        Hello World!Hello World!
+        Hello World!TEST
+        ```
+        
+             
+        
