@@ -29,8 +29,10 @@ print (e * 12)
 ```
 - - - -
 ## Standard Data Types
-Python has five standard data types −
-1. Numbers | 2. String | 3. List | 4. Tuple | 5. Dictionary
+Python has five standard data types -
+
+(1). Numbers | (2). String | (3). List | (4). Tuple | (5). Dictionary
+-------- | -------- | -------- | -------- | -------- | 
 
     1. ### Python Numbers:
         * var1 = 1
