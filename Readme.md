@@ -53,8 +53,6 @@ Python has five standard data types −
         10  |    0.0     |  3.14j
         -786  | -21.9  |  -.6545+0J
         
-        
-        _A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit._
-        
-        
+        ```A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
+             
     2. ### Python Strings
