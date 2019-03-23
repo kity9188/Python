@@ -176,7 +176,7 @@ Python has five standard data types −
         
         Dictionaries have no concept of order among the elements. It is incorrect to say that the elements are "out of order"; they are simply unordered.
         
-        - - - -
+ - - - -
 ## Data Type Conversion
    Sometimes, we may need to perform conversions between the built-in types. 
    To convert between types, we simply use the type-names as a function.
