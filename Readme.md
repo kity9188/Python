@@ -1,6 +1,8 @@
 # What is Python?
-Python is an interpreted, general-purpose programming language. Interpreted language means, compiling not required.
+Python is an interpreted, general-purpose, object-oriented programming language. Interpreted language means, compiling not required.
 Created by ***Guido van Rossum*** and ***first released in 1991***.
+
+Python is named after a TV Show called ‘Monty Python’s Flying Circus’ and not after Python-the snake.
 
 ***It is used for:***
 * web development (server-side),
