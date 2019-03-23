@@ -111,7 +111,7 @@ Python has five standard data types −
     3. ### Python Tuples
         * A tuple is another sequence data type that is similar to the list.
         * A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parenthesis.
-        * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
+        * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as ***read-only*** lists.
         ```python
         tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
         tinytuple = (123, 'john')
@@ -143,6 +143,36 @@ Python has five standard data types −
         tuple[2] = 1000    # Invalid syntax with tuple
         list[2] = 1000     # Valid syntax with list
         ``` 
-            
-             
+    4. ### Python Dictionary
+        * Python's dictionaries are kind of hash-table type.
+        * They work like associative arrays or hashes found in Perl and consist of key-value pairs.
+        * A dictionary key can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object.
+        
+        Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([]).
+        
+        Example:
+        ```python
+        dict = {}
+        dict['one'] = "This is one"
+        dict[2]     = "This is two"
+        
+        tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+        
+        print (dict['one'])       # Prints value for 'one' key
+        print (dict[2])           # Prints value for 2 key
+        print (tinydict)          # Prints complete dictionary
+        print (tinydict.keys())   # Prints all the keys
+        print (tinydict.values()) # Prints all the values
+        ```
+        This produces the following result:
+        ```text
+        This is one
+        This is two
+        {'name': 'john', 'dept': 'sales', 'code': 6734}
+        dict_keys(['name', 'dept', 'code'])
+        dict_values(['john', 'sales', 6734])
+        ```
+        
+        Dictionaries have no concept of order among the elements. It is incorrect to say that the elements are "out of order"; they are simply unordered.
+        
         
