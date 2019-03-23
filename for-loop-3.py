@@ -6,4 +6,4 @@ for i in range(0, len(number)):
 		cleanedNumber = cleanedNumber + number[i]
 
 newNumber = int(cleanedNumber)
-print("The number is {}".format(newNumber))
+print("The number is: {}".format(newNumber))

@@ -10,4 +10,4 @@ print("The number is {}".format({newNumber}))
 
 for state in {"'not pinin'","no more","a stiff","bereft of life"}:
 	print("This parrot is "+state)#order of o/p changes every time we run the code
-	#print("This parrot is {}".format(state))
+	#print("This parrot is {}".format(state)) #in this order of O/P remains same
