@@ -53,7 +53,7 @@ Python has five standard data types −
         10  |    0.0     |  3.14j
         -786  | -21.9  |  -.6545+0J
         
-        ```A ***complex number*** consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
+        ```A Complex Number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
              
     2. ### Python Strings
         Python allows either pair of single or double quotes. Subsets of strings can be taken using the slice operator ([ ] and [:] ) with indexes starting at 0 in the beginning of the string and working their way from -1 to the end.
