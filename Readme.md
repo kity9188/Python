@@ -1,5 +1,6 @@
-# Python Variables
+# Python Variables & Data Types
 
+## Variables
 Variables are nothing but reserved memory locations to store values. It means that when we create a variable, we reserve some space in the memory.
 
 Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to the variables, we can store integers, decimals or characters in these variables.
@@ -175,4 +176,18 @@ Python has five standard data types −
         
         Dictionaries have no concept of order among the elements. It is incorrect to say that the elements are "out of order"; they are simply unordered.
         
-        
+        - - - -
+## Data Type Conversion
+   Sometimes, we may need to perform conversions between the built-in types. 
+   To convert between types, we simply use the type-names as a function.
+    
+   There are several built-in functions to perform conversion from one data type 
+   to another. These functions return a new object representing the converted value.
+   
+   Function  | Description
+   ------------- | -------------
+   ***int(x[,base])***  | Converts ***x*** into an integer. The base specifies the base if x is a string.
+   ***float(x)*** | Converts x into a floating-point number.
+   ***complex(real[,img])*** | Creates a Complex number.
+   ***str(x)*** | Converts x to a string representation.
+   Content Cell  | Content Cell  
