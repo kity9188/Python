@@ -15,5 +15,5 @@ Created by ***Guido van Rossum*** and ***first released in 1991***.
 * Once done, open terminal and type _python_. If the installation is successful, python version will appear.
 
 
-[Tutorial](https://github.com/kity9188/Python-Basics.git)
+[Tutorial](https://github.com/kity9188/Python-Basics.git) / [Beginner Guide](https://www.python.org/about/gettingstarted/)
 
