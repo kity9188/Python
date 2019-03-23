@@ -35,7 +35,7 @@ Python has five standard data types −
 * Tuple
 * Dictionary
 
-    1. ##### Python Numbers:
+    1. ### Python Numbers:
         * var1 = 1
         * var2 = 10
         
