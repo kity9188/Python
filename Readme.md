@@ -50,8 +50,8 @@ Python has five standard data types −
         
         int |   float   |   complex
         ------- | ------- | ------- 
-            10  |   0.0 |   3.14j   
-            -786    |   -21.9   |   -.6545+0J   
+           10  |   0.0 |   3.14j   
+           -786    |   -21.9   |   -.6545+0J   
             
             
         
