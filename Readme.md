@@ -56,3 +56,29 @@ Python has five standard data types −
         ```A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.```
              
     2. ### Python Strings
+        Python allows either pair of single or double quotes. Subsets of strings can be taken using the slice operator ([ ] and [:] ) with indexes starting at 0 in the beginning of the string and working their way from -1 to the end.
+        
+        The plus (+) sign is the string concatenation operator and the asterisk (*) is the repetition operator.
+        
+            Example:
+            ----------
+             ```python
+             str = 'Hello World!'
+             
+             print (str)          # Prints complete string
+             print (str[0])       # Prints first character of the string
+             print (str[2:5])     # Prints characters starting from 3rd to 5th
+             print (str[2:])      # Prints string starting from 3rd character
+             print (str * 2)      # Prints string two times
+             print (str + "TEST") # Prints concatenated string
+             ```
+             -----------
+             This will produce the below result:
+             ```python
+             Hello World!
+             H
+             llo
+             llo World!
+             Hello World!Hello World!
+             Hello World!TEST
+             ``` 
