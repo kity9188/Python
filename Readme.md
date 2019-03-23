@@ -112,7 +112,37 @@ Python has five standard data types −
         * A tuple is another sequence data type that is similar to the list.
         * A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parenthesis.
         * The main difference between _lists_ and _tuples_ are - Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
+        ```python
+        tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+        tinytuple = (123, 'john')
         
+        print (tuple)           # Prints complete tuple
+        print (tuple[0])        # Prints first element of the tuple
+        print (tuple[1:3])      # Prints elements starting from 2nd till 3rd 
+        print (tuple[2:])       # Prints elements starting from 3rd element
+        print (tinytuple * 2)   # Prints tuple two times
+        print (tuple + tinytuple) # Prints concatenated tuple
+        ```
+        This will produce the following result:
+        ```text
+        ('abcd', 786, 2.23, 'john', 70.200000000000003)
+        abcd
+        (786, 2.23)
+        (2.23, 'john', 70.200000000000003)
+        (123, 'john', 123, 'john')
+        ('abcd', 786, 2.23, 'john', 70.200000000000003, 123, 'john')
+        ```
         
+        Below code is invalid with tuple, 
+        because we attempted to update a tuple, 
+        which is not allowed. Similar case is possible with lists:
+        ```python
+        tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+        list = [ 'abcd', 786 , 2.23, 'john', 70.2  ]
+ 
+        tuple[2] = 1000    # Invalid syntax with tuple
+        list[2] = 1000     # Valid syntax with list
+        ``` 
+            
              
         
