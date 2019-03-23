@@ -186,7 +186,7 @@ Python has five standard data types −
    
    Function  | Description
    ------------- | -------------
-     ***int(x[,base])***  | Converts ***x*** into an integer. The base specifies the base if x is a string.
+   ***int(x[,base])***  | Converts ***x*** into an integer. The base specifies the base if x is a string.
    ***float(x)*** | Converts x into a floating-point number.
    ***complex(real[,img])*** | Creates a Complex number.
    ***str(x)*** | Converts x to a string representation.
