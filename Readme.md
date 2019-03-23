@@ -61,8 +61,8 @@ Python has five standard data types −
         The plus (+) sign is the string concatenation operator and the asterisk (*) is the repetition operator.
         
             Example:
-            ----------
-             ```python
+            
+            ```python
              str = 'Hello World!'
              
              print (str)          # Prints complete string
@@ -71,14 +71,14 @@ Python has five standard data types −
              print (str[2:])      # Prints string starting from 3rd character
              print (str * 2)      # Prints string two times
              print (str + "TEST") # Prints concatenated string
-             ```
-             -----------
+            ```
+             
              This will produce the below result:
-             ```python
+            ```python
              Hello World!
              H
              llo
              llo World!
              Hello World!Hello World!
              Hello World!TEST
-             ``` 
+            ``` 
