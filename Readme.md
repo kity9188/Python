@@ -190,4 +190,15 @@ Python has five standard data types −
    ***float(x)*** | Converts x into a floating-point number.
    ***complex(real[,img])*** | Creates a Complex number.
    ***str(x)*** | Converts x to a string representation.
-   Content Cell  | Content Cell  
+   ***repr(x)***  |   Converts object x to an expression string.
+   ***eval(str)*** | Evaluates a string and returns an object.
+   ***tuple(s)*** | Converts s to a tuple.
+   ***list(s)*** | Converts s to a list.
+   ***set(s)*** | Converts s to a set.
+   ***dict(d)*** | Creates a dictionary. d must be a sequence of (key,value) tuples.
+   ***frozenset(s)*** | Converts s to a frozen set.
+   ***chr(x)*** | Converts an integer to a character.
+   ***unichr(x)*** | Converts an integer to a Unicode character.
+   ***ord(x)*** | Converts a single character to its integer value.
+   ***hex(x)*** | Converts an integer to a hexadecimal string.
+   ***oct(x)*** | Converts an integer to an octal string.
