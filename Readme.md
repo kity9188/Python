@@ -19,6 +19,8 @@ print(greeting+''+name) # printing variables
 ```
 * eg:2
 ```python
+a = 12
+b = 3
 c = a + b
 d = c /3
 e = d -4
