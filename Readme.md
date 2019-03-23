@@ -8,11 +8,12 @@ Created by ***Guido van Rossum*** and ***first released in 1991***.
 * mathematics,
 * system scripting.
 
-***[Tutorial](https://github.com/kity9188/Python-Basics.git)
-
 ### How to install?
-***[Download Link](https://www.python.org/)
+[Download Link](https://www.python.org/)
 * Download and install.
 * Add path to the system. Restart the system (if windows). 
 * Once done, open terminal and type _python_. If the installation is successful, python version will appear.
+
+
+[Tutorial](https://github.com/kity9188/Python-Basics.git)
 
