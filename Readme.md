@@ -69,6 +69,7 @@ So
 Python's built-in function bin() can be used to obtain binary representation of an integer number.
 
 Operator  |  Description  |  Example  
+--------- | ------------- | ----------
 ( & ) Binary AND  |  Operator copies a bit, to the result, if it exists in both operands.  |  (a & b) (means 0000 1100)
 ( | ) Binary OR  |  It copies a bit, if it exists in either operand.  |  (a | b) = 61 (means 0011 1101)
 ( ^ ) Binary XOR  |  It copies the bit, if it is set in one operand but not both.  |  (a ^ b) = 49 (means 0011 0001)
