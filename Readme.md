@@ -77,5 +77,7 @@ Operator  |  Description  |  Example
 ( << ) Binary Left Shift  |  The left operand's value is moved left by the number of bits specified by the right operand.  |  a << 2 = 240 (means 1111 0000)
 ( >> ) Binary Right Shift  |  The left operand's value is moved right by the number of bits specified by the right operand.  |  a >> 2 = 15 (means 0000 1111)
 
-[Logic Gate](https://en.wikipedia.org/wiki/Logic_gate) | [Bitwise Operators](https://en.wikipedia.org/wiki/Bitwise_operations_in_C) | [Python Bitwise Operators](https://wiki.python.org/moin/BitwiseOperators)
+[Logic Gate](https://en.wikipedia.org/wiki/Logic_gate) | [Bitwise Operators](https://en.wikipedia.org/wiki/Bitwise_operations_in_C) | [Python Bitwise Operators](https://wiki.python.org/moin/BitwiseOperators) | [Logic Gate](https://whatis.techtarget.com/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR)
+
+
 
