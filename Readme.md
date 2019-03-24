@@ -50,3 +50,32 @@ Operator  |  Description  |  Example
 ( %= ) Modulus AND | It takes modulus using two operands and assign the result to left operand | c %= a is equivalent to c = c % a
 ( **= ) Exponent AND | Performs exponential (power) calculation on operators and assign value to the left operand | c **= a is equivalent to c = c ** a
 ( //= ) Floor Division | It performs floor division on operators and assign value to the left operand | c //= a is equivalent to c = c // a
+
+## Python Bitwise Operators
+
+Bitwise operator works on bits and performs bit-by-bit operation.
+Say a = 60 and b = 13
+=> in binary
+
+a = 0011 1100
+b = 0000 1101
+-------------
+
+so
+a&b (AND)= | 0000 1100
+a|b (OR)= | 0011 1101
+a^b (XNOR)= | 0011 0001
+~a (NOT)= | 1100 0010 
+
+Python's built-in function bin() can be used to obtain binary representation of an integer number.
+
+Operator  |  Description  |  Example  
+( & ) Binary AND  |  Operator copies a bit, to the result, if it exists in both operands.  |  (a & b) (means 0000 1100)
+( | ) Binary OR  |  It copies a bit, if it exists in either operand.  |  (a | b) = 61 (means 0011 1101)
+( ^ ) Binary XOR  |  It copies the bit, if it is set in one operand but not both.  |  (a ^ b) = 49 (means 0011 0001)
+( ~ ) Binary Ones Complement  |  It is unary and has the effect of 'flipping' bits.  |  (~a ) = -61 (means 1100 0011 in 2's complement form due to a signed binary number.
+( << ) Binary Left Shift  |  The left operand's value is moved left by the number of bits specified by the right operand.  |  a << 2 = 240 (means 1111 0000)
+( >> ) Binary Right Shift  |  The left operand's value is moved right by the number of bits specified by the right operand.  |  a >> 2 = 15 (means 0000 1111)
+
+[Logic Gate](https://en.wikipedia.org/wiki/Logic_gate) | [Bitwise Operators](https://en.wikipedia.org/wiki/Bitwise_operations_in_C) | [Python Bitwise Operators](https://wiki.python.org/moin/BitwiseOperators)
+
