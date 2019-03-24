@@ -56,16 +56,15 @@ Operator  |  Description  |  Example
 Bitwise operator works on bits and performs bit-by-bit operation.
 Say a = 60 and b = 13
 => in binary
+* a = 0011 1100
+* b = 0000 1101
 
-a = 0011 1100
-b = 0000 1101
--------------
+So
 
-so
-a&b (AND)= | 0000 1100
-a|b (OR)= | 0011 1101
-a^b (XNOR)= | 0011 0001
-~a (NOT)= | 1100 0010 
+* a&b (AND)= 0000 1100
+* a|b (OR)= 0011 1101
+* a^b (XNOR)= 0011 0001
+* ~a (NOT)= 1100 0010 
 
 Python's built-in function bin() can be used to obtain binary representation of an integer number.
 
