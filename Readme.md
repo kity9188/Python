@@ -79,5 +79,6 @@ Operator  |  Description  |  Example
 
 [Logic Gate](https://en.wikipedia.org/wiki/Logic_gate) | [Bitwise Operators](https://en.wikipedia.org/wiki/Bitwise_operations_in_C) | [Python Bitwise Operators](https://wiki.python.org/moin/BitwiseOperators) | [Logic Gate](https://whatis.techtarget.com/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR)
 
-
+## Python Operators Precedence
+![picture alt](https://i.stack.imgur.com/ne01T.png)
 
