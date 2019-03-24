@@ -14,7 +14,7 @@ Python language supports the following types of operators:
 ## Python Arithmetic Operators
 
 Operator | Description | Example
-------------- | ---------------------------- | ---------
+---------------- | ---------------------------- | ---------
  (+) Addition | Adds values on either side of the operator. | a + b = 31
  (-) Subtraction | Subtracts right hand operand from left hand operand. | a – b = -11
  (*) Multiplication | Multiplies values on either side of the operator. | a * b = 210
