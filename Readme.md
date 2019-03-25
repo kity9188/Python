@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/kity9188/images/master/PythonBasics.JPG">
 
-## What is Python?
+# What is Python?
 Python is an interpreted, general-purpose, object-oriented programming language. Interpreted language means, compiling not required.
 Created by ***Guido van Rossum*** and ***first released in 1991***.
 
