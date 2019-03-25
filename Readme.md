@@ -1,4 +1,4 @@
-![picture alt](https://raw.githubusercontent.com/kity9188/images/master/PythonBasics.JPG)
+![picture alt]<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/kity9188/images/master/PythonBasics.JPG">
 
 ## What is Python?
 Python is an interpreted, general-purpose, object-oriented programming language. Interpreted language means, compiling not required.
