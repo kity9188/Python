@@ -1,6 +1,6 @@
 # Continuous, Break & Else statements
 
-## Continue
+## 1.Continue
 Continue actually stops processing any more lines
 in the block and forces the for loop to move on to the next value in the
 sequence.
@@ -17,7 +17,7 @@ for item in shopping_list:
 	print("Buy {}".format(item))
 print("continue skips the item")
 ```
-## Break
+## 2.Break
 This is used to terminate the statement, once we found our code. i.e., _we found our statement, now exit immediately from the loop._
 ```python
 shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
@@ -28,7 +28,7 @@ for item in shopping_list:
 	print("Buy {}".format(item))
 print("break, terminates the program")
 ```
-## Else
+## 3.Else
 If the condition is not available in the code, it will print the result.
 ```python
 food = ['egg', 'beacon', 'beans', 'sausages']
