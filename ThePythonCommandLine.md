@@ -1,8 +1,10 @@
-# Python Install
+# Python Command Line
+
+## 1. Python Install
 To check if you have python installed, search in the start bar for Python(on a Windows PC) or run the following on the Command Line (cmd.exe):
 `python --vesion`
 
-# Python Quickstart
+## 2. Python Quickstart
 Python is an interpreted programming language, this means directly run code on command line. To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.
 
 * Type your code, say `print ("Hello There!")`.
