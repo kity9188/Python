@@ -1,6 +1,6 @@
 # Python Syntax
 
-### 1.Python Indentations
+### 1. Python Indentations
 Where in other programming languages the indentation in code is for readability only, in Python the indentation is very important.
 Python uses indentation to indicate a block of code. e.g.,
 ~~~
