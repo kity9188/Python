@@ -5,8 +5,8 @@ Python has three types of numeric:
 * complex
 
 Variables of numeric types are created when we assign a value to them:
-~~~
 e.g.:
+~~~
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
