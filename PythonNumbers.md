@@ -48,11 +48,12 @@ print(type(x))
 print(type(y))
 print(type(z))
 ~~~
-_Float can also be scientific numbers with an "e" to indicate the power of 10. e.g. 5e10 = 5 x 10<sup>10</sup>_
+_Float can also be scientific numbers with an "e" to indicate the power of 10._
+e.g. 5e10 = 5 x 10<sup>10</sup>
 ```
-x = 35e3 # 35 x 10<sup>3</sup>
-y = 12E4
-z = -87.7e100
+x = 35e3 # 35 x 10^3
+y = 12E4 # 12 x 10^4
+z = -87.7e100 # -87.7 x 10^100
 
 print(type(x))
 print(type(y))
