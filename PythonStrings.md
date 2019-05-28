@@ -56,6 +56,7 @@ print(a.upper()) #for a = "Hello, World!" | HELLO, WORLD!
 print(a.replace("H", "J")) #for a = "Hello, World!" | Jello, World!
 print(a.split(",")) #for a = "Hello, World!" | ['Hello', ' World!']
 
+
 # Command-line String Input
 Python allows for command line input. That means we are able to ask the user for input by using the `input()` method.
 E.g.,
