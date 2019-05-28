@@ -9,6 +9,7 @@ Like many other popular programming languages, strings in Python are arrays of b
 However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
 
 Example:
+
 Get the character at position 1 (remember that in python, position starts from 0. Say: 0,1,2,...):
 ~~~
 a = "Hello, World!"
@@ -55,3 +56,16 @@ print(a.upper()) #for a = "Hello, World!" | HELLO, WORLD!
 print(a.replace("H", "J")) #for a = "Hello, World!" | Jello, World!
 print(a.split(",")) #for a = "Hello, World!" | ['Hello', ' World!']
 
+# Command-line String Input
+Python allows for command line input. That means we are able to ask the user for input by using the `input()` method.
+E.g.,
+~~~
+print("Enter your name:")
+x = input()
+print("Hello, ", x)
+~~~
+or
+~~~
+y = input("Enter your name: \n")
+print("Hello, ", y)
+~~~
